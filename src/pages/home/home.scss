@@ -1,0 +1,261 @@
+page-home {
+  
+.label{
+    text-align: -webkit-left;
+}
+.container{
+    width: 100%;
+
+}
+.visits{
+     box-shadow: 0px 0 5px 1px #888888;
+     width: calc(100% - 20px);
+     margin: 10px 10px;
+     float: left;
+     border-radius: .25em;
+    //  min-height: 50%;
+}
+.myVisitHeader{
+    float: left;
+    width: 100%;
+    // margin-bottom:135px; 
+}
+.detailswindow{
+
+    float: left;
+    width: 100%;
+    border-radius: 2px;
+    
+}
+.label{
+    display: none;
+}
+.dateVenuDetails{
+    
+    width: 100%;
+    padding: 0;
+    float: left;
+    margin-bottom: 5px;
+}
+.card{
+    padding: 0;
+    margin: 0;
+    width:100%; 
+    background: transparent !important;
+    box-shadow: none;
+}
+ 
+.date{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-right: 1px dashed gainsboro;
+
+}
+.venu{
+    float: left;
+    width: 50%;
+    text-align: center;
+   
+   
+}
+
+.dateContainer{
+    width:100% !important;
+    margin: 10px;
+    float: left;
+}
+.viewDetals {
+    float: left;
+    min-height: 35px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    padding: 12.5px 10px 12.5px 200px;
+    background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f,#00667f);
+}
+.fa{
+    margin-bottom:10px; 
+    font-size: 30px;
+}
+.arrowRIght{
+    font-size: 17px !important;
+    margin:0 !important;
+    
+   }
+.detailsLi{
+    background:#000 !important;
+    margin: 5px 10px;
+    padding: 0;
+    width: 95%;
+    float: left;
+    opacity: 0.8;
+    border-radius: 7px;
+    color: #fff;
+    border: none !important;
+}
+.item-inner{
+    border: none !important;
+}
+.card-header{
+    color: #fff !important;
+    font-weight: lighter;
+    font-size: 15px;
+    padding:15px 0 5px 65px; 
+    width:100%;
+    border-bottom: 1px solid gainsboro ;
+    
+}
+.subtitlesContainer{
+    width: 78%;
+    margin: 0 auto; 
+}
+.card-header p{
+    color: #fff !important;
+    font-weight: lighter;
+    font-size: 15px;
+    padding:0px 0 15px 40px; 
+    width:100%;
+}
+.item-inner{
+    width: 100% !important;
+    padding: 0 !important;
+}
+.list{
+    list-style-type: none;
+    width:100%;
+    padding: 0;
+    float: left;
+    margin: 0px;
+    border-bottom: none;
+}
+.listMyVisit{
+    padding-top: 270px;
+}
+.myVisitHeader h4{
+    margin: 12.5px 10px;
+    float: left;
+    font-size: 15px;
+    color: #00677f;
+    font-weight: lighter;
+  }
+ .item-block:first-child {
+     border:0;
+}
+.daysLeft{
+    width: 80px;
+    height: 23px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
+    color: #fff;
+    margin: 10px 10px;
+    font-size: 10px;
+    float: right;
+    padding: 4px;
+
+}
+ .userDetails{
+     background: #000 !important;
+     width: calc(100% - 20px);
+     margin: 5px 10px;
+     padding: 0;
+     border-radius:.25em; 
+ }
+ .userDetails1{
+    //background: #000 !important;
+    margin: 10px 140px !important;
+    width:100%; 
+}
+.avatar{
+  width: 100% !important;
+  height: 100% !important;
+
+}
+.subTitle{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #fff;
+    //font-family: Interstate;
+    font-weight: lighter;
+}
+.info{
+    color:#a6a6a6;
+}
+.subTitle span{
+     font-size: 17px;
+     color: #fff;
+}
+.pastVisitHeader{
+    float: left;
+    width: 100%;
+}
+.closed{
+    width: 80px;
+    height: 23px;
+    font-family: 'Segoe UI';
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #53565a;
+    color: #53565a;
+    margin: 10px 10px;
+    font-size: 9px;
+    float: right;
+    padding: 4px 15px;
+}
+.pastVisitHeader h4 {
+margin: 12.5px 10px;
+float: left;
+font-size: 15px;
+color: #00677f;
+font-weight: lighter;
+}
+.listPast{
+    padding-top: none !important;
+}
+.pastItem{
+    padding:0;
+}
+.pastVisitHeading{
+    // font-family: Interstate;
+    font-size: 15px;
+    color:#000 !important;
+    padding:10px 0px 10px 10px;
+    border:none;
+    font-weight: bold;
+}
+.icon-color{
+    color: #000;
+}
+.calendar{
+    padding:1px;
+}
+.location{
+    padding:6px;
+}
+.kaddu{
+    font-weight:bold;
+}
+.pastView{
+    float: right;
+    background: #fff;
+    border:none;
+    color:#00677f;
+    font-weight:lighter;
+}
+.pastCard{
+    float:left;
+    display:inline-block;
+}
+.pastContent{
+    width:100%;
+    float:left;
+}
+.mainLogo{
+    width: 100%;
+    float: left;
+    height: 35px !important;
+    margin: 0 auto;
+}
+}
+

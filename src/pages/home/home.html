@@ -1,0 +1,138 @@
+<ion-content class="container">
+  <!--  <ion-header>
+        <ion-navbar>
+          <ion-title ><img class="mainLogo" src="assets/imgs/logo1.png"> </ion-title>
+        </ion-navbar>
+      </ion-header> -->
+
+  <ion-card class="userDetails">
+
+    <ion-item class="userDetails">
+      <ion-avatar class="userDetails1" item-start>
+        <img class="avatar" src="assets/imgs/profile_picture.png">
+      </ion-avatar>
+    </ion-item>
+
+
+
+    <ion-card-content class="userDetails">
+      <div class="subtitlesContainer">
+        <p class="subTitle">Welcome
+          <span>John Anderson</span>
+        </p>
+        <p class="subTitle info">
+          <span>Visit Organizer,</span> assists you to manage all the visit information at ease</p>
+      </div>
+    </ion-card-content>
+
+  </ion-card>
+
+  <div class="visits">
+
+    <div class="myVisitHeader">
+      <h4> My Visits</h4>
+      <button class="daysLeft">2 days left </button>
+    </div>
+    <ion-list class="list listMyVisit" style="  background: url(assets/imgs/Panel_BG.png);">
+
+      <ion-item class="detailsLi">
+        <div class="detailswindow" item-content>
+          <ion-card>
+            <ion-card-header>
+              Cognizant's Digital Capabilities
+              <p>World Bank Group</p>
+            </ion-card-header>
+            <ion-card-content class="dateVenuDetails">
+              <div class="dateContainer">
+                <div class="date ">
+
+                  <i class="fa fa-calendar icon-large"></i>
+                  <p> 2 Days</p>
+                  <p>27 Sep - 28 Sep</p>
+                </div>
+                <div class="venu ">
+                  <i class="fa fa-map-marker icon-2x" aria-hidden="true"></i>
+                  <p> Cognizant- India</p>
+                  <p>Chennai - DLF</p>
+                </div>
+              </div>
+
+            </ion-card-content>
+
+          </ion-card>
+          <button class="viewDetals" (click)="goToOtherPage()"> View Details
+            <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
+          </button>
+        </div>
+      </ion-item>
+
+      <ion-item class="detailsLi">
+        <div class="detailswindow" item-content>
+          <ion-card class="card">
+            <ion-card-header>
+              Cognizant's Digital Capabilities
+              <p>World Bank Group</p>
+            </ion-card-header>
+            <ion-card-content class="dateVenuDetails">
+              <div class="dateContainer">
+                <div class="date ">
+
+                  <i class="fa fa-calendar"></i>
+                  <p> 2 Days</p>
+                  <p>27 Sep - 28 Sep</p>
+                </div>
+                <div class="venu ">
+                  <i class="fa fa-map-marker icon-2x" aria-hidden="true"></i>
+                  <p> Cognizant- India</p>
+                  <p>Chennai - DLF</p>
+                </div>
+              </div>
+
+            </ion-card-content>
+
+          </ion-card>
+          <button class="viewDetals" (click)="goToOtherPage()"> View Details
+            <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
+          </button>
+        </div>
+      </ion-item>
+
+
+    </ion-list>
+
+
+
+  </div>
+  <div class="visits">
+    <div class="pastVisitHeader">
+      <h4>Past Visit</h4>
+      <button class="closed">Closed</button>
+    </div>
+    <ion-list class="list">
+      <ion-item class="pastItem">
+        <div class="pastContent" item-content>
+          <ion-card class="pastCard">
+            <ion-card-header class="pastVisitHeading">
+              Cognizant's Digital Capabilities
+            <button class="pastView" (click)="goToOtherPage()"> View Details  <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
+            </button>
+                
+            </ion-card-header>
+              
+            <ion-card-content>
+              <div>
+                <div>
+                  <p><i class="fa fa-calendar fa-lg icon-color calendar"></i><span class="kaddu"> 2 Days</span> | 27 Sep - 28 Sep</p>
+                </div>
+                <div>
+                  <p><i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i><span class="kaddu"> Cognizant- India</span> | Chennai - DLF</p>
+                </div>
+              </div>
+            </ion-card-content>
+          </ion-card>
+          
+        </div>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

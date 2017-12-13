@@ -1,0 +1,24 @@
+
+<ion-content  style="background:url(assets/imgs/BG.png) no-repeat center;background-size:cover;">
+
+  <img class="logo" src="assets/imgs/logo.png" />
+  <p class="loginTitle">User Login</p>
+  <form id="page-form1">
+    <ion-item id="page-input1" class="loginUsername">
+
+      <ion-input type="text" placeholder="User Name" name="username"></ion-input>
+    </ion-item>
+  </form>
+  <form id="page-form2">
+    <ion-item id="page-input2" class="loginPassword">
+
+      <ion-input type="password" placeholder="Password" name="Password"></ion-input>
+    </ion-item>
+  </form>
+  <button class="page-button1" (click) = "goToOtherPage()">
+    Log-In
+  </button>
+  <p class="forgotPassword">
+    Forgot Password?
+  </p>
+</ion-content>

@@ -1,0 +1,73 @@
+<ion-content padding>
+
+
+  <div class="button-clear" (click)="goBack()">
+    Cognizant's Digital Capabilities
+  </div>
+  <ion-segment class="subHeader">
+    <p>
+      <b>Cognizant - India, Chennai - DLF</b>
+
+
+      <span class="daysNdates">date | no of days</span>
+    </p>
+  </ion-segment>
+  <hr>
+  <div padding>
+    <ion-segment [(ngModel)]="details">
+      <ion-segment-button value="Agenda">
+        Agenda
+      </ion-segment-button>
+      <ion-segment-button value="Itineary">
+        Itineary
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="details">
+    <ion-list *ngSwitchCase="'Agenda'">
+
+      <ion-list item-start class="agendaList">
+        <ion-list-header class="day1">
+          <h2>Day 1</h2>
+        </ion-list-header>
+
+        <ion-item class="ionItem">
+          <p>Introduction </p>
+          <p> 09:00 AM - 10:00 AM</p>
+          <p> DLF, 1C 3rd Floor - Yale Conference Room</p>
+        </ion-item>
+
+        <ion-item class="ionItem">
+          <p>Digital UX Capabilities
+          </p>
+          <p> 10:00 AM - 12:00 AM
+          </p>
+          <p>DLF, 1C 3rd Floor - Yale Conference Room
+          </p>
+        </ion-item>
+
+        <ion-item class="ionItem">
+          <p>Lunch Break</p>
+          <p>12:00 PM - 13:30 PM</p>
+          <p>DLF, 1C 3rd Floor - Yale Conference Room
+          </p>
+        </ion-item>
+      </ion-list>
+
+
+
+
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Itineary'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <p>Itineary</p>
+        </ion-thumbnail>
+
+      </ion-item>
+
+    </ion-list>
+  </div>
+</ion-content>
