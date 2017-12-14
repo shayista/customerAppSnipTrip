@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MyVisitPage } from '../pages/my-visit/my-visit';
 import { loginPage } from '../pages/login/login';
+import { rootModulePage } from '../pages/rootModule/rootModule';
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { loginPage } from '../pages/login/login';
     MyApp,
     HomePage,
     MyVisitPage,
-    loginPage
+    loginPage  
    
   
   ],
@@ -29,9 +30,6 @@ import { loginPage } from '../pages/login/login';
     HomePage,
     MyVisitPage,
     loginPage
-  
-
-
       ],
   providers: [
     StatusBar,

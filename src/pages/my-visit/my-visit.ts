@@ -8,7 +8,7 @@ import {  NavController, NavParams } from 'ionic-angular';
   templateUrl: 'my-visit.html',
 })
 export class MyVisitPage {
-  details: string = "Agenda";
+
 
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

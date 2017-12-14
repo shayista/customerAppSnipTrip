@@ -7,6 +7,9 @@ page-home {
     width: 100%;
 
 }
+.back-button.show-back-button{
+    display: none;
+}
 .visits{
      box-shadow: 0px 0 5px 1px #888888;
      width: calc(100% - 20px);
@@ -180,8 +183,10 @@ page-home {
     font-weight: lighter;
 }
 .info{
+    font-size: 12px !important;
     color:#a6a6a6;
 }
+
 .subTitle span{
      font-size: 17px;
      color: #fff;
@@ -252,10 +257,12 @@ font-weight: lighter;
     float:left;
 }
 .mainLogo{
-    width: 100%;
-    float: left;
+    max-width: 100%;
     height: 35px !important;
     margin: 0 auto;
+}
+.header{
+    float: left;
 }
 }
 
