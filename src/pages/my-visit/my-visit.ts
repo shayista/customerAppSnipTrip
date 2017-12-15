@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {  NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams ,PopoverController } from 'ionic-angular';
+import { rootModulePage } from '../rootModule/rootModule';
 
 
 
@@ -11,13 +12,19 @@ export class MyVisitPage {
 
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams , public popoverCtrl: PopoverController) {
    
   }
 
   goBack() {
     this.navCtrl.pop();
    
+  }
+  presentPopover(myEvent) {
+    let popover = this.popoverCtrl.create(rootModulePage);
+    popover.present({
+      ev: myEvent
+    });
   }
 
 }

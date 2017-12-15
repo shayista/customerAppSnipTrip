@@ -1,18 +1,29 @@
 <ion-header class="header">
   <ion-navbar>
-    <ion-title ><img class="mainLogo" src="assets/imgs/logo1.png"> </ion-title>
+    <ion-title class="logoTitle">
+      <img class="mainLogo" src="assets/imgs/logo1.png"> 
+    </ion-title>
+    <div class=profile>
+      <i class="fa fa-bell-o notifiation" aria-hidden="true"></i><span class="badge count">02</span>
+      <ion-avatar class="userDetails1" item-start>
+        <img class="avatar" src="/assets/imgs/Profile_M_AgendaScreen.png">
+       
+      </ion-avatar>
+      <i class="fa fa-chevron-down fa-lg popOver" aria-hidden="true" (click)="presentPopover($event)"></i>
+    </div>
   </ion-navbar>
-</ion-header> 
+</ion-header>
+
 <ion-content class="container">
-    
 
-  <ion-card class="userDetails">
 
-    <ion-item class="userDetails">
+  <!-- <ion-card class="userDetails">
+
+     <ion-item class="userDetails">
       <ion-avatar class="userDetails1" item-start>
         <img class="avatar" src="assets/imgs/profile_picture.png">
       </ion-avatar>
-    </ion-item>
+    </ion-item> 
 
 
 
@@ -26,22 +37,22 @@
       </div>
     </ion-card-content>
 
-  </ion-card>
+  </ion-card> -->
 
   <div class="visits">
 
     <div class="myVisitHeader">
       <h4> My Visits</h4>
-      <button class="daysLeft">2 Days Left </button>
+      <span class="daysLeft"><i class="fa fa-star-o" aria-hidden="true"></i>st2 Days Left</span>
     </div>
-    <ion-list class="list listMyVisit" style="  background: url(assets/imgs/Panel_BG.png);">
+    <ion-list class="list listMyVisit" style="  background: url(assets/imgs/Panel_BG.png);background-size: cover;">
 
       <ion-item class="detailsLi">
         <div class="detailswindow" item-content>
           <ion-card>
             <ion-card-header>
               Cognizant's Digital Capabilities
-              <p>World Bank Group</p>
+            
             </ion-card-header>
             <ion-card-content class="dateVenuDetails">
               <div class="dateContainer">
@@ -62,7 +73,7 @@
 
           </ion-card>
           <button class="viewDetals" (click)="goToOtherPage()"> View Details
-            <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
+            <!-- <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i> -->
           </button>
         </div>
       </ion-item>
@@ -72,7 +83,7 @@
           <ion-card class="card">
             <ion-card-header>
               Cognizant's Digital Capabilities
-              <p>World Bank Group</p>
+              
             </ion-card-header>
             <ion-card-content class="dateVenuDetails">
               <div class="dateContainer">
@@ -93,7 +104,7 @@
 
           </ion-card>
           <button class="viewDetals" (click)="goToOtherPage()"> View Details
-            <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
+            
           </button>
         </div>
       </ion-item>
@@ -115,23 +126,28 @@
           <ion-card class="pastCard">
             <ion-card-header class="pastVisitHeading">
               Cognizant's Digital Capabilities
-            <button class="pastView" (click)="goToOtherPage()"> View Details  <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
-            </button>
-                
+              <button class="pastView" (click)="goToOtherPage()"> View Details
+                <!-- <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i> -->
+              </button>
+
             </ion-card-header>
-              
+
             <ion-card-content>
               <div>
                 <div>
-                  <p><i class="fa fa-calendar fa-lg icon-color calendar"></i><span class="kaddu"> 2 Day(s)</span> | 27 Sep - 28 Sep</p>
+                  <p>
+                    <i class="fa fa-calendar fa-lg icon-color calendar"></i>
+                    <span class="kaddu"> 2 Day(s)</span> | 27 Sep - 28 Sep</p>
                 </div>
                 <div>
-                  <p><i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i><span class="kaddu"> Cognizant- India</span> | Chennai - DLF</p>
+                  <p>
+                    <i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i>
+                    <span class="kaddu"> Cognizant- India</span> | Chennai - DLF</p>
                 </div>
               </div>
             </ion-card-content>
           </ion-card>
-          
+
         </div>
       </ion-item>
     </ion-list>

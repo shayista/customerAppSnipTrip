@@ -16,7 +16,8 @@ import { rootModulePage } from '../pages/rootModule/rootModule';
     MyApp,
     HomePage,
     MyVisitPage,
-    loginPage  
+    loginPage,
+    rootModulePage
    
   
   ],
@@ -29,7 +30,8 @@ import { rootModulePage } from '../pages/rootModule/rootModule';
     MyApp,
     HomePage,
     MyVisitPage,
-    loginPage
+    loginPage,
+    rootModulePage
       ],
   providers: [
     StatusBar,

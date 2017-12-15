@@ -1,25 +1,27 @@
 page-login {
 .loginContent{
+    margin: 0 auto;
     width: 100%;
   }
 .logo{
     float: left;
     max-width:217px;
     height:auto;
-    margin:103.5px 79px 64px 79px;
+    margin:76px 79px;
 }
 .loginTitle{
     padding: 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 30px;
     color: #8f9296;
-    text-align: center;
-    float: left;
+    position: relative;
+    left: 67px;
     width:100%; 
     font-weight: lighter;
 
 }
-.loginUsername{
+
+.loginInput{
   
     padding-left: 20px;
     border-radius: 36px;
@@ -28,31 +30,32 @@ page-login {
     margin:0 67.5px 15px 62.5px; 
     font-size: 20px;
 }
-#page-input2{
-    
-    padding-left: 20px;
-    border-radius: 36px;
-    min-height: 35px;
-    width: 249px;
-    margin:0 67.5px 20px 62.5px; 
-    font-size: 20px;
-    
-}
 .page-button1{
     font-size: 24px;
     width: 249px;
     border-radius: 36px;
-    margin:0 67.5px 20px 62.5px; 
-    min-height: 50px;
+    margin:5px 67.5px 20px 62.5px; 
+    min-height: 35px;
     color: #fff;
     font-weight: lighter;
     background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f);
     
 }
 .forgotPassword{
-    text-align: right;
+    text-align: left;
     font-size: 15px;
     color: #0099cc;
-    margin-right: 62.5px;
+    position: relative;
+    left: 67px;
+    margin:0;
+}
+.footer{
+    font-size: 10px;
+    color: #8f9296;
+    text-align: center;
+    margin: 173px 0 0 0;
+}
+.text-input{
+    margin: 0 !important;
 }
 }

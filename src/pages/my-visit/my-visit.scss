@@ -1,32 +1,232 @@
 page-my-visit {
+    .mainLogo{
+        max-width: 100%;
+        height: 35px !important;
+        margin: 0 auto;
+    }
+    .header{
+        float: left;
+    }
+
+.mainContainer{
+    float: left !important;
+    width: 100%;
+    padding: 0  10px  !important;
+    margin: 0 auto;
+    top: 0px !important;
+}
+.back-button.show-back-button{
+ display: none;
+}
+.container{
+    padding: 0 !important;
+    width: 100%;
+    box-shadow: 0px 0 5px 1px #888888;
+    border-radius: 2px;
+
+}
+.button-clear{
+  font-size: 15px;
+  margin: 0 !important;
+ // border-bottom: 1 px solid gainsboro;
+  color: #00677f;
+  font-weight: bold;
+  padding: 12.5px 10px 0 0;
+}
+.locationDetails{
+    background: rgb(58, 54, 54);
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 15px;
    
-.subHeader{
-    float: left;
-    width: 100%;
-    min-height: 12%
+    color:#fff;
 }
-.subHeader b{
-    width: 100%;
+.locationDetails p{
+    padding: 10px 0px 0px 10px;
+    margin: 0 !important; 
 }
-.agendaList{
-    color: #000;
-    padding: 0;
-    margin: 0;
+.daysCount{
+  padding-bottom: 10px !important;
+}
+.fa{
+    font-size: 20px;
+    margin-right: 5px;
 }
 
-.list-md .item-block .item-inner{
-    border-bottom: 1px solid gainsboro;
-    padding: 3px;
-    margin: 10px;
+.routingContainer{
+    border-radius:2px;
+    box-shadow: 0px 0 5px 1px #888888;
+    margin: 10px 10px;
+    padding: 0 !important;
+
 }
+.subHeader{
+    min-height: 31px;
+    min-width: 100%;
+    
+   
+}
+.detailsHeader{
+    float: left !important;
+    border: none !important;
+    padding-left: 10px !important;
+    margin: 0 !important;
+    background: #fff !important ;
+    font-size: 15px !important;
+    color: #999 !important;
+    text-align: left !important;
+    max-width: 100px !important;
+
+}
+
+.segment-activated{
+   
+    margin: 0 !important;
+    background: #fff !important;
+    font-weight: bold !important;
+    color: #01677e !important;
+}
+.details{
+    min-height: 32px;
+   
+    width:53%;
+    margin: 0 !important;
+    padding: 0 !important; 
+}
+
+
+.agendaList{
+    color: #000;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
 .label{
     color: #000;
     text-align: left;
     padding: 0;
     margin: 0;
 }
-.day1 h2{
-    color: rgb(150, 150, 245);
-    padding-left: 13px;
+.day1 {
+    color: #000;
+    font-size: 17px !important;
+    padding:10px 0px 0 0 !important;
+    border: none !important;
 }
+.ionItem{
+    min-height: 107px; 
+    padding:0 0 0 10px !important;  
+    margin: 0 !important;
+    border-bottom: 1px solid gainsboro !important;
+}
+.confRoom{
+    color: #0099cc;
+    font-weight: lighter;
+}
+.inner-item{
+    border: none !important;
+}
+.list{
+    border: none !important;
+}
+.titleTopic{
+    padding-top: 10px;
+    color: #2d2926;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.timing{
+    padding: 2px;
+    color: #53565a;
+    font-weight: symbol;
+    font-size: 12px;
+}
+.sez{
+    padding: 2px;
+    color: #53565a;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.lunchBreak{
+    background: #f6f6f7;
+    min-height: 69px;
+    border: none !important;
+    padding:10px 0 10px 10px;  
+    border-bottom: 1px solid gainsboro;
+}
+.item-ios.item-block .item-inner {
+    border: none !important;
+    padding:0 !important;  
+    margin: 0 !important;
+}
+.start{
+    min-height: 131px;
+}
+.label{
+    min-height: 100%;
+}
+.presenterOne{
+
+    width: 15%;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 10px !important; 
+}
+.presenterTwo{
+   
+    width: 15%;
+    padding: 0 !important;
+    margin: 10px 0 0 -15px !important;
+}
+.mainLogo{
+    max-width: 100%;
+    height: 35px !important;
+    float: left;
+    margin: 7px 0 0 10px !important;
+}
+.header{
+    float: left;
+}
+.notifiation{
+    font-size:30px;
+    position: relative;
+    top:5px;
+    right: -15px;
+}
+.profile{
+    float: right;
+}
+.logoTitle{
+    padding: 0 !important;
+    display: inline-block;
+}
+.count{
+    background: linear-gradient(180deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
+  padding: 5px;
+  border-radius: 50%;
+    color: #fff;
+    position: relative;
+    left: 0px;
+    top: -6px;
+}
+.popOver{
+    font-size: 15px !important;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: -6px;
+    font-weight: lighter;
+}
+.avatar{
+    max-width: 100% !important;
+    display:inline-block;
+    width:80%;
+    
+  }
+  .userDetails1{
+    //background: #000 !important
+    display:inline-block;
+}
+
 }

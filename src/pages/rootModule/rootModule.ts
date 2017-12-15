@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ViewController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 
 @Component({
@@ -8,12 +8,11 @@ import { HomePage } from '../home/home';
 })
 export class rootModulePage {
 
-  constructor(public navCtrl: NavController) {
-   
-  }
-  goToOtherPage() { 
-    this.navCtrl.push(HomePage);
   
+  constructor(public viewCtrl: ViewController) {}
+  
+    close() {
+      this.viewCtrl.dismiss();
     }
 }
 
