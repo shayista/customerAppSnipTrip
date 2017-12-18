@@ -1,11 +1,9 @@
 page-my-visit {
-    .mainLogo{
-        max-width: 100%;
-        height: 35px !important;
-        margin: 0 auto;
-    }
+    
     .header{
         float: left;
+        margin: 0;
+    padding: 0 0 0 10px;
     }
 
 .mainContainer{
@@ -85,7 +83,9 @@ page-my-visit {
     max-width: 100px !important;
 
 }
-
+.dynamic{
+    color: #01677e !important;
+}
 .segment-activated{
    
     margin: 0 !important;
@@ -107,6 +107,22 @@ page-my-visit {
     padding: 0 !important;
     margin: 0 !important;
 }
+.agenda{
+    
+    margin: 0
+    !important;
+    
+    background: 
+    #fff !important;
+    
+    font-weight: 
+    bold !important;
+    
+    color: #01677e
+    !important;
+    
+    }
+    
 
 
 .label{
@@ -155,6 +171,7 @@ page-my-visit {
     font-weight: lighter;
     font-size: 12px;
 }
+
 .lunchBreak{
     background: #f6f6f7;
     min-height: 69px;
@@ -162,10 +179,13 @@ page-my-visit {
     padding:10px 0 10px 10px;  
     border-bottom: 1px solid gainsboro;
 }
-.item-ios.item-block .item-inner {
+.item-ios .item-block .item-inner {
     border: none !important;
     padding:0 !important;  
     margin: 0 !important;
+}
+.item-inner{
+    border: none !important;
 }
 .start{
     min-height: 131px;
@@ -180,6 +200,7 @@ page-my-visit {
     margin: 0 !important;
     margin-top: 10px !important; 
 }
+
 .presenterTwo{
    
     width: 15%;
@@ -190,11 +211,9 @@ page-my-visit {
     max-width: 100%;
     height: 35px !important;
     float: left;
-    margin: 7px 0 0 10px !important;
+    margin: 7px 0 0 0px !important;
 }
-.header{
-    float: left;
-}
+
 .notifiation{
     font-size:30px;
     position: relative;
@@ -221,7 +240,7 @@ page-my-visit {
     font-size: 15px !important;
     display: inline-block;
     position: relative;
-    top: 1px;
+    top: -1px;
     left: -6px;
     font-weight: lighter;
 }

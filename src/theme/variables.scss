@@ -92,3 +92,10 @@ url('../assets/fonts/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'
 url('../assets/fonts/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
 url('../assets/fonts/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
 url('../assets/fonts/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg'); font-weight: normal; font-style: normal; }
+$popover-md-width: 150x;
+$popover-ios-width: 150px;
+$popover-wp-width: 150px;
+
+$popover-md-border-radius: 3x;
+$popover-ios-border-radius: 3px;
+$popover-wp-border-radius: 3px;

@@ -26,5 +26,23 @@ export class MyVisitPage {
       ev: myEvent
     });
   }
+  toggleColor(){
+    
+    let segment=
+    document.getElementById('agendaContent').classList;
+    
+    var valueItineary=
+    document.getElementById('itineary').innerHTML;
+    
+    if(valueItineary)
+    
+    {
+    
+    segment.remove("agenda");
+    
+    }
+    
+    }
+    
 
 }
