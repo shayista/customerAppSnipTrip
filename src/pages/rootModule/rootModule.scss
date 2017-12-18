@@ -1,11 +1,28 @@
 page-rootmodule{
-    padding: 0 !important;
-    margin: 0 !important;
-    border: none !important;
+   
     .popOverDisplay .label{
-        color: #000 !important;
-        font-size: 20px;
+        width: 150px !important;
+        color: #2d2926 !important;
+        font-size: 15px !important;
         border: none !important;
+        text-align: left;
+        margin: 0 !important;
+        border: 0 !important;
+        font-weight: bold !important;
+        padding: 0 !important;
        }
+       .list  {
+           padding: 2.5px 0 !important;
+           font-size: 15px;
+           color: #2d2926 !important;
+           margin: 0 !important;
+           border: 0 !important;
+         
+       }
+       .popover-content{
+           width: 150px !important;
+       }
+    
+         
 }
 

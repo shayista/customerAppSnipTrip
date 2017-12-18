@@ -11,9 +11,12 @@ page-my-visit {
 .mainContainer{
     float: left !important;
     width: 100%;
-    padding: 0  10px  !important;
+    padding: 0  0px  !important;
     margin: 0 auto;
     top: 0px !important;
+}
+.scroll-content{
+    padding:10px !important;
 }
 .back-button.show-back-button{
  display: none;
@@ -33,6 +36,10 @@ page-my-visit {
   font-weight: bold;
   padding: 12.5px 10px 0 0;
 }
+.button-clear i{
+    font-size: 15px;
+    margin:0 0 0 5px;
+}    
 .locationDetails{
     background: rgb(58, 54, 54);
     margin: 10px;

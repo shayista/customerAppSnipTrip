@@ -62,13 +62,18 @@ page-home {
     float: left;
     width: 50%;
     text-align: center;
-   
-   
+  
 }
-
+.daysLeft i{
+    color: #f4b642;
+    position: relative;
+    left: -3px;
+    font-size: 20px;
+    /* top: 0px; */
+}
 .dateContainer{
     width:100% !important;
-    margin: 10px;
+    margin: 10px 0;
     float: left;
 }
 .viewDetals {
