@@ -59,12 +59,12 @@
                 <div class="date ">
 
                   <i class="fa fa-calendar icon-large"></i>
-                  <p>2 Day(s)</p>
+                  <p class="noOfDays">2 Day(s)</p>
                   <p>27 Sep - 28 Sep</p>
                 </div>
                 <div class="venu ">
                   <i class="fa fa-map-marker icon-2x" aria-hidden="true"></i>
-                  <p> Cognizant- India</p>
+                  <p class="noOfDays"> Cognizant- India</p>
                   <p>Chennai - DLF</p>
                 </div>
               </div>
@@ -90,12 +90,12 @@
                 <div class="date ">
 
                   <i class="fa fa-calendar"></i>
-                  <p> 2 Day(s)</p>
-                  <p>27 Sep - 28 Sep</p>
+                  <p class="noOfDays"> 3 Day(s)</p>
+                  <p>27 Sep - 29 Sep</p>
                 </div>
                 <div class="venu ">
                   <i class="fa fa-map-marker icon-2x" aria-hidden="true"></i>
-                  <p> Cognizant- India</p>
+                  <p class="noOfDays"> Cognizant- India</p>
                   <p>Chennai - DLF</p>
                 </div>
               </div>
@@ -104,7 +104,7 @@
 
           </ion-card>
           <button class="viewDetals" (click)="goToOtherPage()"> View Details
-            
+           
           </button>
         </div>
       </ion-item>
@@ -118,7 +118,7 @@
   <div class="visits">
     <div class="pastVisitHeader">
       <h4>Past Visit</h4>
-      <button class="closed">Closed</button>
+      <div class="closed"> <i class="fa fa-circle-thin circle" aria-hidden="true"></i>Closed</div>
     </div>
     <ion-list class="list">
       <ion-item class="pastItem">
@@ -127,7 +127,7 @@
             <ion-card-header class="pastVisitHeading">
               Cognizant's Digital Capabilities
               <button class="pastView" (click)="goToOtherPage()"> View Details
-                <!-- <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i> -->
+                <i class="fa fa-angle-right fa-lg arrowRIght" aria-hidden="true"></i>
               </button>
 
             </ion-card-header>

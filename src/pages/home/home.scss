@@ -58,6 +58,11 @@ page-home {
     border-right: 1px dashed gainsboro;
 
 }
+.noOfDays {
+    font-size: 15px !important;
+    color: #fff !important;
+    font-weight: normal;
+}
 .venu{
     float: left;
     width: 50%;
@@ -67,7 +72,7 @@ page-home {
 .daysLeft i{
     color: #f4b642;
     position: relative;
-    left: -3px;
+    left: -4px;
     font-size: 20px;
     /* top: 0px; */
 }
@@ -90,9 +95,9 @@ page-home {
     color: #888684;
 }
 .arrowRIght{
-    font-size: 17px !important;
+    font-size: 21px !important;
     margin:0 !important;
-    
+    color: #00677f;
    }
 .detailsLi{
     background:#000 !important;
@@ -110,7 +115,7 @@ page-home {
 }
 .card-header{
     color: #fff !important;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 15px;
     padding:15px 0 15px 65px; 
     width:100%;
@@ -201,19 +206,23 @@ page-home {
 .pastVisitHeader{
     float: left;
     width: 100%;
+    border-bottom: 1px solid gainsboro;
 }
 .closed{
     width: 80px;
     height: 23px;
     font-family: 'Segoe UI';
-    border-radius: 10px;
     background-color: #fff;
-    border: 1px solid #53565a;
     color: #53565a;
-    margin: 10px 10px;
-    font-size: 9px;
+    font-size: 13px;
     float: right;
-    padding: 6px 15px;
+    padding-top: 12px;
+    font-weight: normal;
+}
+.circle{
+    font-size: 15px;
+    color: rgb(238, 42, 42);
+    margin: 0 5px 0 0 !important; 
 }
 .pastVisitHeader h4 {
 margin: 12.5px 10px;
@@ -235,18 +244,24 @@ font-weight: bold;
     padding:10px 0px 10px 10px;
     border:none;
     font-weight: bold;
+    
 }
 .icon-color{
     color: #000;
 }
 .calendar{
     padding:1px;
+    color: #999;
 }
 .location{
     padding:6px;
+    color: #999;
 }
 .kaddu{
-    font-weight:bold;
+    font-weight:normal;
+    color: #000;
+    font-size: 15px;
+    
 }
 .pastView{
     float: right;
