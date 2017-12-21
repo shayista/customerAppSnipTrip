@@ -12,7 +12,7 @@ page-login {
 .loginTitle{
     padding: 0;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
     color: #8f9296;
     position: relative;
     left: 67px;
@@ -20,7 +20,11 @@ page-login {
     font-weight: lighter;
 
 }
-
+input::placeholder{
+    font-size: 15px;
+    font-family: 'segoe ui' 'arial' 'interstate';
+    font-weight: 400;
+}
 .loginInput{
   
     padding-left: 20px;
@@ -31,7 +35,7 @@ page-login {
     font-size: 20px;
 }
 .page-button1{
-    font-size: 24px;
+    font-size: 15px;
     width: 249px;
     border-radius: 36px;
     margin:5px 67.5px 20px 62.5px; 

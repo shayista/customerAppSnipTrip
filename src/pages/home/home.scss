@@ -12,17 +12,25 @@ page-home {
     display: none;
 }
 .visits{
-     box-shadow: 0px 0 5px 1px #888888;
+     box-shadow: 0px 0 10px 1px gainsboro;
      width: calc(100% - 20px);
-     margin: 10px 10px;
+     margin: 10px 10px 10px 10px;
      float: left;
      border-radius: .25em;
     //  min-height: 50%;
 }
+.visitsPast{
+    // box-shadow: 0px 0 5px 1px #888888;
+    box-shadow: 0px 0 10px 1px gainsboro;
+    width: calc(100% - 20px);
+    margin: 0px 10px 10px 10px;
+    float: left;
+    border-radius: .25em;
+}
 .myVisitHeader{
     float: left;
     width: 100%;
-  
+    
     // margin-bottom:135px; 
 }
 .detailswindow{
@@ -73,7 +81,7 @@ page-home {
     color: #f4b642;
     position: relative;
     left: -4px;
-    font-size: 20px;
+    font-size: 14px;
     /* top: 0px; */
 }
 .dateContainer{
@@ -96,12 +104,12 @@ page-home {
 }
 .arrowRIght{
     font-size: 21px !important;
-    margin:0 !important;
-    color: #00677f;
+    margin:-1px !important;
+    color: #0099cc;
    }
 .detailsLi{
     background:#000 !important;
-    margin: 5px 10px;
+    margin: 0px 10px 10px 10px ;
     padding: 0;
     width: 95%;
     float: left;
@@ -156,15 +164,15 @@ page-home {
     float: left;
     font-size: 15px;
     color: #00677f;
-    font-weight: bold;
+    font-weight: lighter;
   }
  .item-block:first-child {
      border:0;
 }
 .daysLeft{    
     columns: #000000;;
-    margin: 10px 10px;
-    font-size: 15px;
+    margin: 13px 10px 5px 10px;
+    font-size: 13px;
     float: right;
     
 
@@ -206,6 +214,7 @@ page-home {
 .pastVisitHeader{
     float: left;
     width: 100%;
+    // border: 1px solid #888;
     border-bottom: 1px solid gainsboro;
 }
 .closed{
@@ -229,7 +238,7 @@ margin: 12.5px 10px;
 float: left;
 font-size: 15px;
 color: #00677f;
-font-weight: bold;
+font-weight: lighter;
 }
 .listPast{
     padding-top: none !important;
@@ -267,7 +276,7 @@ font-weight: bold;
     float: right;
     background: #fff;
     border:none;
-    color:#00677f;
+    color:#0099cc;
     font-weight:lighter;
 }
 .pastCard{
@@ -287,13 +296,13 @@ font-weight: bold;
 .header{
     float: left;
     margin: 0;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0px;
 }
 .notifiation{
-    font-size:30px;
+    font-size:25px;
     position: relative;
     top:5px;
-    right: -15px;
+    right: -13px;
 }
 .profile{
     float: right;
@@ -304,7 +313,7 @@ font-weight: bold;
 }
 .count{
     background: linear-gradient(180deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
-  padding: 5px;
+  padding: 3px;
   border-radius: 50%;
     color: #fff;
     position: relative;

@@ -3,7 +3,7 @@ page-my-visit {
     .header{
         float: left;
         margin: 0;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0px;
     }
 
 .mainContainer{
@@ -22,7 +22,8 @@ page-my-visit {
 .container{
     padding: 0 !important;
     width: 100%;
-    box-shadow: 0px 0 5px 1px #888888;
+    // box-shadow: 0px 0 5px 1px #888888;
+    box-shadow: 0px 0 10px 1px gainsboro;
     border-radius: 2px;
 
 }
@@ -31,12 +32,14 @@ page-my-visit {
   margin: 0 !important;
  // border-bottom: 1 px solid gainsboro;
   color: #00677f;
-  font-weight: bold;
+  font-weight: normal;
   padding: 12.5px 10px 0 0;
 }
 .button-clear i{
     font-size: 15px;
     margin:0 0 0 5px;
+    color: #0099cc;
+    font-weight: lighter;
 }    
 .locationDetails{
     background: rgb(58, 54, 54);
@@ -67,8 +70,8 @@ page-my-visit {
 
 .routingContainer{
     border-radius:2px;
-    border:1px solid #888;
-    margin: 10px 10px;
+    // border:1px solid #888;
+    margin: 10px 10px 0 10px;
     padding: 0 !important;
 
 }
@@ -160,6 +163,7 @@ page-my-visit {
 }
 .list{
     border: none !important;
+    margin: 0 !important;
 }
 .titleTopic{
     padding-top: 10px;
@@ -174,6 +178,7 @@ page-my-visit {
     font-size: 12px;
 }
 .sez{
+    padding-bottom: 5px;
     padding: 2px;
     color: #53565a;
     font-weight: lighter;
@@ -223,7 +228,7 @@ page-my-visit {
 }
 
 .notifiation{
-    font-size:30px;
+    font-size:25px;
     position: relative;
     top:5px;
     right: -15px;
@@ -237,7 +242,7 @@ page-my-visit {
 }
 .count{
     background: linear-gradient(180deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
-  padding: 5px;
+  padding: 3px;
   border-radius: 50%;
     color: #fff;
     position: relative;
