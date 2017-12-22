@@ -99,11 +99,14 @@ page-home {
 }
 .fa{
     margin-bottom:10px; 
-    font-size: 30px;
+    font-size: 23px;
     color: #888684;
 }
+// .fa-map-marker{
+//     font-size: 17px !important;
+// }
 .arrowRIght{
-    font-size: 21px !important;
+    font-size: 20px !important;
     margin:-1px !important;
     color: #0099cc;
    }
@@ -218,7 +221,7 @@ page-home {
     border-bottom: 1px solid gainsboro;
 }
 .closed{
-    width: 80px;
+    width: 63px;
     height: 23px;
     font-family: 'Segoe UI';
     background-color: #fff;
@@ -277,6 +280,7 @@ font-weight: lighter;
     background: #fff;
     border:none;
     color:#0099cc;
+    font-size: 13px;
     font-weight:lighter;
 }
 .pastCard{

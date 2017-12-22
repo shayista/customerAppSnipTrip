@@ -52,15 +52,16 @@ page-my-visit {
 .locationDetails p{
     padding: 10px 0px 0px 10px;
     margin: 0 !important; 
-    font-size: 15px !important;
+    font-size: 17px ;
 }
 .daysCount{
   padding-bottom: 10px !important;
-  font-size: 12px !important;
+  font-size: 13px !important;
   color: #999;
 }
 .daysCount span{
     color: #fff;
+    font-size: 13px !important;
 
 }
 .fa{
@@ -145,6 +146,7 @@ page-my-visit {
 .day1 {
     color: #000;
     font-size: 17px !important;
+    font-weight: normal !important;
     padding:10px 0px 0 0 !important;
     border: none !important;
 }
@@ -152,7 +154,8 @@ page-my-visit {
     min-height: 107px; 
     padding:0 0 0 10px !important;  
     margin: 0 !important;
-    border-bottom: 1px solid gainsboro !important;
+    border-bottom: 0.55px solid #c8c7cc !important;
+    // border-bottom: 1px solid gainsboro !important;
 }
 .confRoom{
     color: #0099cc;
@@ -189,8 +192,8 @@ page-my-visit {
     background: #f6f6f7;
     min-height: 69px;
     border: none !important;
-    padding:10px 0 10px 10px;  
-    border-bottom: 1px solid gainsboro;
+    padding:10px 0 0px 10px;  
+    border-bottom: 0.55px solid #c8c7cc !important;
 }
 .item-ios .item-block .item-inner {
     border: none !important;
@@ -199,6 +202,7 @@ page-my-visit {
 }
 .item-inner{
     border: none !important;
+    padding-bottom: 10px !important;
 }
 .start{
     min-height: 131px;
