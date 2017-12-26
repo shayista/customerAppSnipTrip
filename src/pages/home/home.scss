@@ -1,115 +1,120 @@
 page-home {
-  
-.label{
-    text-align: -webkit-left;
+
+// HEADER SECTION //
+.header{
+    float: left;
+    margin: 0;
+    padding: 0 0 0 0px;
 }
+
+.logoTitle{
+    padding: 0 !important;
+    display: inline-block;
+}
+
+.mainLogo{
+    max-width: 100%;
+    height: 35px !important;
+    float: left;
+    margin: 7px 0 0 0px !important;
+}
+
+.profile{
+    float: right;
+}
+
+.notifiation{
+    font-size:25px;
+    position: relative;
+    top:5px;
+    right: -13px;
+}
+
+.count{
+    background: linear-gradient(180deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
+    padding: 3px;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+    left: 0px;
+    top: -6px;
+}
+
+.userDetails{
+    display:inline-block;
+}
+
+.avatar{
+    max-width: 100% !important;
+    display:inline-block;
+    width:80%;
+}
+
+.popOver{
+    font-size: 15px !important;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    left: -6px;
+    font-weight: lighter;
+}
+
+.popover-content{
+    width: 150px !important;
+}
+
+// VISITS SECTION //
+
+/* COMMON FOR PAST AND MY VISITS */
 .container{
     width: 100%;
     padding: 0 10px !important;
 
 }
-.back-button.show-back-button{
-    display: none;
+
+.list{
+    list-style-type: none;
+    width:100%;
+    padding: 0;
+    float: left;
+    margin: 0px;
+    border-bottom: none;    
 }
+
+/* MY VISITS  SECTION */
 .visits{
-     box-shadow: 0px 0 10px 1px gainsboro;
-     width: calc(100% - 20px);
-     margin: 10px 10px 10px 10px;
-     float: left;
-     border-radius: .25em;
-    //  min-height: 50%;
-}
-.visitsPast{
-    // box-shadow: 0px 0 5px 1px #888888;
     box-shadow: 0px 0 10px 1px gainsboro;
     width: calc(100% - 20px);
-    margin: 0px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     float: left;
     border-radius: .25em;
 }
+
 .myVisitHeader{
     float: left;
     width: 100%;
-    
-    // margin-bottom:135px; 
-}
-.detailswindow{
-
-    float: left;
-    width: 100%;
-    border-radius: 2px;
-    
 }
 
-.label{
-    display: none;
-}
-.dateVenuDetails{
+.daysLeft{    
+    columns: #000000;;
+    margin: 13px 10px 5px 10px;
+    font-size: 13px;
+    float: right;
     
-    width: 100%;
-    padding: 0;
-    float: left;
-    margin-bottom: 5px;
-}
-.card{
-    padding: 0;
-    margin: 0;
-    width:100%; 
-    background: transparent !important;
-    box-shadow: none;
-}
- 
-.date{
-    float: left;
-    width: 50%;
-    text-align: center;
-    border-right: 1px dashed gainsboro;
 
 }
-.noOfDays {
-    font-size: 15px !important;
-    color: #fff !important;
-    font-weight: normal;
-}
-.venu{
-    float: left;
-    width: 50%;
-    text-align: center;
-  
-}
+
 .daysLeft i{
     color: #f4b642;
     position: relative;
     left: -4px;
     font-size: 14px;
-    /* top: 0px; */
 }
-.dateContainer{
-    width:100% !important;
-    margin: 10px 0;
-    float: left;
+
+.listMyVisit{
+    padding-top: 170px; 
 }
-.viewDetals {
-    float: left;
-    min-height: 35px;
-    width: 100%;
-    color: #fff;
-    font-size: 15px;
-    background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f,#00667f);
-}
-.fa{
-    margin-bottom:10px; 
-    font-size: 23px;
-    color: #888684;
-}
-// .fa-map-marker{
-//     font-size: 17px !important;
-// }
-.arrowRIght{
-    font-size: 20px !important;
-    margin:-1px !important;
-    color: #0099cc;
-   }
+
 .detailsLi{
     background:#000 !important;
     margin: 0px 10px 10px 10px ;
@@ -121,105 +126,79 @@ page-home {
     color: #fff;
     border: none !important;
 }
-.item-inner{
-    border: none !important;
-}
-.card-header{
-    color: #fff !important;
-    font-weight: normal;
-    font-size: 15px;
-    padding:15px 0 15px 65px; 
-    width:100%;
-    border-bottom: 1px solid gainsboro ;
+
+.detailswindow{
+    float: left;
+    width: 100%;
+    border-radius: 2px;
     
 }
-.subtitlesContainer{
-    width: 78%;
-    margin: 0 auto; 
-}
-.card-header p{
-    color: #fff !important;
-    font-weight: lighter;
-    font-size: 15px;
-    padding:0px 0 7px 40px; 
-    width:100%;
-}
-.item-inner{
-    width: 100% !important;
-    padding: 0 !important;
-}
-.list{
-    list-style-type: none;
-    width:100%;
+
+.dateVenueDetails{
+    width: 100%;
     padding: 0;
     float: left;
-    margin: 0px;
-    border-bottom: none;
-    
+    margin-bottom: 5px;
 }
-.listMyVisit{
-    padding-top: 170px;
-    
- 
-}
-.myVisitHeader h4{
-    margin: 12.5px 10px;
+
+.dateContainer{
+    width:100% !important;
+    margin: 10px 0;
     float: left;
-    font-size: 15px;
-    color: #00677f;
-    font-weight: lighter;
-  }
- .item-block:first-child {
-     border:0;
 }
-.daysLeft{    
-    columns: #000000;;
-    margin: 13px 10px 5px 10px;
-    font-size: 13px;
-    float: right;
-    
 
-}
- .userDetails{
-     background: #000 !important;
-     width: calc(100% - 20px);
-     margin: 5px 10px;
-     padding: 0;
-     border-radius:.25em; 
- }
- .userDetails1{
-    //background: #000 !important
-    display:inline-block;
-}
-.avatar{
-  max-width: 100% !important;
-  display:inline-block;
-  width:80%;
-  
-}
-.subTitle{
+.date{
+    float: left;
+    width: 50%;
     text-align: center;
-    margin-bottom: 10px;
-    font-size: 12px;
-    color: #fff;
-    //font-family: Interstate;
-    font-weight: lighter;
-}
-.info{
-    font-size: 12px !important;
-    color:#a6a6a6;
+    border-right: 1px dashed gainsboro;
 }
 
-.subTitle span{
-     font-size: 17px;
-     color: #fff;
+.venue{
+    float: left;
+    width: 50%;
+    text-align: center;
 }
+
+.viewDetals {
+    float: left;
+    min-height: 35px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f,#00667f);
+}
+
+.noOfDays {
+    font-size: 15px !important;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+/* PAST VISITS  SECTION */
+.visitsPast{
+    box-shadow: 0px 0 10px 1px gainsboro;
+    width: calc(100% - 20px);
+    margin: 0px 10px 10px 10px;
+    float: left;
+    border-radius: .25em;
+}
+
 .pastVisitHeader{
     float: left;
     width: 100%;
     // border: 1px solid #888;
     border-bottom: 1px solid gainsboro;
 }
+
+.pastVisitHeader h4 {
+    margin: 12.5px 10px;
+    float: left;
+    font-size: 15px;
+    color: #00677f;
+    font-weight: lighter;
+}
+
 .closed{
     width: 63px;
     height: 23px;
@@ -231,50 +210,36 @@ page-home {
     padding-top: 12px;
     font-weight: normal;
 }
+
 .circle{
     font-size: 15px;
     color: rgb(238, 42, 42);
     margin: 0 5px 0 0 !important; 
 }
-.pastVisitHeader h4 {
-margin: 12.5px 10px;
-float: left;
-font-size: 15px;
-color: #00677f;
-font-weight: lighter;
-}
-.listPast{
-    padding-top: none !important;
-}
+
 .pastItem{
     padding:0;
 }
+
+.pastContent{
+    width:100%;
+    float:left;
+}
+
+.pastCard{
+    float:left;
+    display:inline-block;
+}
+
 .pastVisitHeading{
     // font-family: Interstate;
     font-size: 15px;
     color:#000 !important;
     padding:10px 0px 10px 10px;
     border:none;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-.icon-color{
-    color: #000;
-}
-.calendar{
-    padding:1px;
-    color: #999;
-}
-.location{
-    padding:6px;
-    color: #999;
-}
-.kaddu{
-    font-weight:normal;
-    color: #000;
-    font-size: 15px;
-    
-}
+
 .pastView{
     float: right;
     background: #fff;
@@ -283,58 +248,105 @@ font-weight: lighter;
     font-size: 13px;
     font-weight:lighter;
 }
-.pastCard{
-    float:left;
-    display:inline-block;
+
+.arrowRight{
+    font-size: 20px !important;
+    margin:-1px !important;
+    color: #0099cc;
 }
-.pastContent{
-    width:100%;
-    float:left;
+
+.daysCount{
+    font-weight:normal;
+    color: #000;
+    font-size: 15px;
 }
-.mainLogo{
-    max-width: 100%;
-    height: 35px !important;
-    float: left;
-    margin: 7px 0 0 0px !important;
+
+.icon-color{
+    color: #000;
+} 
+
+.location{
+    padding:6px;
+    color: #999;
 }
-.header{
-    float: left;
+
+.calendar{
+    padding:1px;
+    color: #999;
+}
+
+// COMMON AND DEFAULT STYLE SECTION //
+.label{
+    text-align: -webkit-left;
+    display: none;
+}
+
+.back-button.show-back-button{
+    display: none;
+}
+
+.card{
+    padding: 0;
     margin: 0;
-    padding: 0 0 0 0px;
+    width:100%; 
+    background: transparent !important;
+    box-shadow: none;
 }
-.notifiation{
-    font-size:25px;
-    position: relative;
-    top:5px;
-    right: -13px;
+ 
+.fa{
+    margin-bottom:10px; 
+    font-size: 23px;
+    color: #888684;
 }
-.profile{
-    float: right;
+
+.item-inner{
+    border: none !important;
 }
-.logoTitle{
-    padding: 0 !important;
-    display: inline-block;
+
+.card-header{
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 15px;
+    padding:15px 0 15px 65px; 
+    width:100%;
+    border-bottom: 1px solid gainsboro ;
+    
 }
-.count{
-    background: linear-gradient(180deg,#64A70B 2%,#00667f,#00667f,#00667f,#00667f);
-  padding: 3px;
-  border-radius: 50%;
-    color: #fff;
-    position: relative;
-    left: 0px;
-    top: -6px;
+
+.subtitlesContainer{
+    width: 78%;
+    margin: 0 auto; 
 }
-.popOver{
-    font-size: 15px !important;
-    display: inline-block;
-    position: relative;
-    top: -1px;
-    left: -6px;
+
+.card-header p{
+    color: #fff !important;
     font-weight: lighter;
+    font-size: 15px;
+    padding:0px 0 7px 40px; 
+    width:100%;
 }
- .popover-content{
-    width: 150px !important;
+
+.item-inner{
+    width: 100% !important;
+    padding: 0 !important;
 }
+
+.item-block:first-child {
+     border:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

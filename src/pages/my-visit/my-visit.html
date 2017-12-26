@@ -1,22 +1,21 @@
 <ion-header class="header">
-    <ion-navbar>
-      <ion-title class="logoTitle">
-        <img class="mainLogo" (click)="goBack()" src="assets/imgs/logo1.png"> 
-      </ion-title>
-      <div class=profile>
-        <i class="fa fa-bell-o notifiation" aria-hidden="true"></i><span class="badge count">02</span>
-        <ion-avatar class="userDetails1" item-start>
-          <img class="avatar" src="assets/imgs/Profile_M_AgendaScreen.png">
-         
-        </ion-avatar>
-        <i class="fa fa-chevron-down fa-lg popOver" aria-hidden="true" (click)="presentPopover($event)"></i>
-      </div>
-    </ion-navbar>
-  </ion-header>
+  <ion-navbar>
+    <ion-title class="logoTitle">
+      <img class="mainLogo" (click)="goBack()" src="assets/imgs/logo1.png">
+    </ion-title>
+    <div class="profile">
+      <i class="fa fa-bell-o notifiation" aria-hidden="true"></i>
+      <span class="badge count">02</span>
+      <ion-avatar class="userDetails" item-start>
+        <img class="avatar" src="assets/imgs/Profile_M_AgendaScreen.png">
 
-<ion-content padding class="mainContainer" >
+      </ion-avatar>
+      <i class="fa fa-chevron-down fa-lg popOver" aria-hidden="true" (click)="presentPopover($event)"></i>
+    </div>
+  </ion-navbar>
+</ion-header>
 
-
+<ion-content padding class="mainContainer">
   <div class="container" ng-disabled="clicked">
     <div class="subHeader">
       <p class="button-clear" ng-disabled="clicked" (click)="goBack()">
@@ -25,7 +24,8 @@
       <div class="locationDetails">
         <p>Cognizant India, Chennai-DLF</p>
         <p class="daysCount">
-          <i class="fa fa-calendar fa-lg"></i><span>2 Day(s) </span> | 27 Sep - 28 Sep
+          <i class="fa fa-calendar fa-lg"></i>
+          <span>2 Day(s) </span> | 27 Sep - 28 Sep
         </p>
 
       </div>
@@ -34,28 +34,12 @@
     <div padding class="routingContainer">
       <div style="width: 100%; border-bottom:1px solid gainsboro;">
         <ion-segment class="details" [(ngModel)]="details">
-
-          <ion-segment-button
-          class="detailsHeader agenda"
-          id= "agendaContent"
-          value="Agenda">
-          
-          Agenda
-          
+          <ion-segment-button class="detailsHeader agenda" id="agendaContent" value="Agenda">
+            Agenda
           </ion-segment-button>
-          
-          
-          
-          <ion-segment-button
-          class="detailsHeader" (click)="toggleColor()"
-          id= "itineary"
-          value="Itineary">
-          
-          Itineary
-          
+          <ion-segment-button class="detailsHeader" (click)="toggleColor()" id="itineary" value="Itineary">
+            Itineary
           </ion-segment-button>
-          
-
         </ion-segment>
       </div>
       <div [ngSwitch]="details">
@@ -64,11 +48,11 @@
           <ion-list item-start class="agendaList">
 
             <ion-item class="ionItem start">
-              <p  class="day1">Day 1</p>
-              
-               <img class="presenterOne" src="assets/imgs/profile1.png">
-               <img class="presenterTwo" src="assets/imgs/profile2.png">
-             
+              <p class="day">Day 1</p>
+
+              <img class="presenterOne" src="assets/imgs/profile1.png">
+              <img class="presenterTwo" src="assets/imgs/profile2.png">
+
               <p class="titleTopic">Introduction </p>
               <p class="timing"> 09:00 AM - 10:00 AM</p>
               <p class="sez"> DLF, 1C 3rd Floor -
@@ -77,9 +61,9 @@
             </ion-item>
 
             <ion-item class="ionItem">
-              
-                <img class="presenterOne" src="assets/imgs/profile1.png">
-                <img class="presenterTwo" src="assets/imgs/profile2.png">
+
+              <img class="presenterOne" src="assets/imgs/profile1.png">
+              <img class="presenterTwo" src="assets/imgs/profile2.png">
 
               <p class="titleTopic">Digital UX Capabilities </p>
               <p class="timing">10:00 AM - 12:00 AM </p>
@@ -98,16 +82,16 @@
 
             <ion-item class="ionItem">
 
-                <img class="presenterOne" src="assets/imgs/profile1.png">
-                <img class="presenterTwo" src="assets/imgs/profile2.png">
+              <img class="presenterOne" src="assets/imgs/profile1.png">
+              <img class="presenterTwo" src="assets/imgs/profile2.png">
 
-                <p class="titleTopic">Digital UX Capabilities </p>
-                <p class="timing">13:00 PM - 15:00 PM </p>
-                <p class="sez"> DLF, 1C 3rd Floor -
-                  <span class="confRoom">Yale Conference Room</span>
-                </p>
-              </ion-item>
-  
+              <p class="titleTopic">Digital UX Capabilities </p>
+              <p class="timing">13:00 PM - 15:00 PM </p>
+              <p class="sez"> DLF, 1C 3rd Floor -
+                <span class="confRoom">Yale Conference Room</span>
+              </p>
+            </ion-item>
+
           </ion-list>
 
 

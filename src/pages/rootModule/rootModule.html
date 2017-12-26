@@ -1,12 +1,6 @@
-
-    <ion-list class="popOverDisplay" >
-        
-            <ion-list class="list">Profile</ion-list>
-            <ion-list>Change Password</ion-list>
-            <ion-list>Help</ion-list>
-            <ion-list class="logOutButton"  (click)="goBack()">Log Out</ion-list>
-      
-        
-      </ion-list>
-      
-
+<ion-list class="popOverDisplay">
+      <ion-list class="list">Profile</ion-list>
+      <ion-list>Change Password</ion-list>
+      <ion-list>Help</ion-list>
+      <ion-list (click)="goBack()">Log Out</ion-list>
+</ion-list>

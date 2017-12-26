@@ -1,14 +1,17 @@
 page-login {
 .loginContent{
-    margin: 0 auto;
-    width: 100%;
-  }
+   margin: 0 auto;
+   width: 100%;
+}
+
+// HEADER SECTION //
 .logo{
     float: left;
     max-width:217px;
     height:auto;
     margin:76px 79px;
 }
+
 .loginTitle{
     padding: 0;
     margin-bottom: 20px;
@@ -20,13 +23,15 @@ page-login {
     font-weight: lighter;
 
 }
-input::placeholder{
-    font-size: 15px;
-    font-family: 'segoe ui' 'arial' 'interstate';
-    font-weight: 400;
-}
+
+// ion-input::placeholder{
+//     font-size: 15px;
+//     font-family: 'segoe ui' 'arial' 'interstate';
+//     font-weight: 400;
+// }
+
+// INPUT SECTION //
 .loginInput{
-  
     padding-left: 20px;
     border-radius: 36px;
     min-height: 35px;
@@ -34,7 +39,9 @@ input::placeholder{
     margin:0 67.5px 15px 62.5px; 
     font-size: 20px;
 }
-.page-button1{
+
+// LOGIN BUTTON and FORGOT PASSWORD SECTION //
+.page-button{
     font-size: 15px;
     width: 249px;
     border-radius: 36px;
@@ -43,8 +50,8 @@ input::placeholder{
     color: #fff;
     font-weight: lighter;
     background: linear-gradient(90deg,#64A70B 2%,#00667f,#00667f,#00667f);
-    
 }
+
 .forgotPassword{
     text-align: left;
     font-size: 15px;
@@ -53,12 +60,15 @@ input::placeholder{
     left: 67px;
     margin:0;
 }
+
+// FOOTER SECTION //
 .footer{
     font-size: 10px;
     color: #8f9296;
     text-align: center;
     margin: 89px 0 0 0;
 }
+
 .text-input{
     margin: 0 !important;
 }
