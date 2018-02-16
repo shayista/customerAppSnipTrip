@@ -25,72 +25,84 @@
         <p>Cognizant India, Chennai-DLF</p>
         <p class="daysCount">
           <i class="fa fa-calendar fa-lg"></i>
-          <span>2 Day(s) </span> | 27 Sep - 28 Sep
+          <span>27<sup>th</sup> Sep - 28<sup>th</sup> Sep  </span> | 2 Day(s)
         </p>
 
       </div>
     </div>
 
     <div padding class="routingContainer">
-      <div style="width: 100%; border-bottom:1px solid gainsboro;">
+      <div class="xyz">
         <ion-segment class="details" [(ngModel)]="details">
-          <ion-segment-button class="detailsHeader agenda" id="agendaContent" value="Agenda">
-            Agenda
+          <ion-segment-button class="detailsHeader agenda" id="agendaContent" value="Day1">
+            Day 1
           </ion-segment-button>
-          <ion-segment-button class="detailsHeader" (click)="toggleColor()" id="itineary" value="Itineary">
-            Itineary
+          <ion-segment-button class="detailsHeader" (click)="toggleColor()" id="itineary" value="Day2">
+            Day 2
           </ion-segment-button>
+          
         </ion-segment>
+   
       </div>
+      <div class="sezLocation">
+          <p class="visitingLocationDetails">
+           Visiting Location : <span>HYD -DLF</span>
+          </p>
+          <p class="meetingRoomDetails">
+           Meeting Room: <span>Krida Auditorium</span>
+          </p>
+
+        </div>
       <div [ngSwitch]="details">
         <ion-list *ngSwitchDefault class="dynamic">
 
           <ion-list item-start class="agendaList">
 
             <ion-item class="ionItem start">
-              <p class="day">Day 1</p>
+        
+              <div class="profilesPresenters">
+                  <img class="presenterOne" src="assets/imgs/profile1.png">
+                  <img class="presenterTwo" src="assets/imgs/profile2.png">
+              </div>
+              
 
-              <img class="presenterOne" src="assets/imgs/profile1.png">
-              <img class="presenterTwo" src="assets/imgs/profile2.png">
-
-              <p class="titleTopic">Introduction </p>
+             
               <p class="timing"> 09:00 AM - 10:00 AM</p>
-              <p class="sez"> DLF, 1C 3rd Floor -
-                <span class="confRoom">Yale Conference Room</span>
-              </p>
+              <p class="titleTopic">Introduction </p>
             </ion-item>
 
-            <ion-item class="ionItem">
-
-              <img class="presenterOne" src="assets/imgs/profile1.png">
-              <img class="presenterTwo" src="assets/imgs/profile2.png">
-
-              <p class="titleTopic">Digital UX Capabilities </p>
-              <p class="timing">10:00 AM - 12:00 AM </p>
-              <p class="sez"> DLF, 1C 3rd Floor -
-                <span class="confRoom">Yale Conference Room</span>
-              </p>
-            </ion-item>
+            <ion-item class="ionItem start">
+                
+                      <div class="profilesPresenters">
+                          <img class="presenterOne" src="assets/imgs/profile1.png">
+                          <img class="presenterTwo" src="assets/imgs/profile2.png">
+                      </div>
+                      
+        
+                     
+                      <p class="timing"> 10:00 AM - 11:00 AM</p>
+                      <p class="titleTopic">Digital UX Capabalities </p>
+                    </ion-item>
 
             <ion-item class="lunchBreak">
+              
+             
+              <p class="timing"> 12:00 PM - 13:30 PM </p>
               <p class="titleTopic">Lunch Break </p>
-              <p class="timing">12:00 PM - 13:30 PM </p>
-              <p class="sez"> DLF, 1C 3rd Floor -
-                <span class="confRoom">Yale Conference Room</span>
-              </p>
             </ion-item>
 
-            <ion-item class="ionItem">
-
-              <img class="presenterOne" src="assets/imgs/profile1.png">
-              <img class="presenterTwo" src="assets/imgs/profile2.png">
-
-              <p class="titleTopic">Digital UX Capabilities </p>
-              <p class="timing">13:00 PM - 15:00 PM </p>
-              <p class="sez"> DLF, 1C 3rd Floor -
-                <span class="confRoom">Yale Conference Room</span>
-              </p>
-            </ion-item>
+            <ion-item class="ionItem start">
+                
+                      <div class="profilesPresenters">
+                          <img class="presenterOne" src="assets/imgs/profile1.png">
+                          <img class="presenterTwo" src="assets/imgs/profile2.png">
+                      </div>
+                      
+        
+                     
+                      <p class="timing"> 10:00 AM - 11:00 AM</p>
+                      <p class="titleTopic">Digital UX Capabalities </p>
+                    </ion-item>
 
           </ion-list>
 
@@ -99,10 +111,10 @@
 
         </ion-list>
 
-        <ion-list *ngSwitchCase="'Itineary'">
+        <ion-list *ngSwitchCase="'Day2'">
           <ion-item>
             <ion-thumbnail item-start>
-              <p>Itineary</p>
+              <p>Day 2</p>
             </ion-thumbnail>
 
           </ion-item>

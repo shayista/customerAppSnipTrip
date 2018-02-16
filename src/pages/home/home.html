@@ -17,47 +17,52 @@
 <ion-content class="container">
   <div class="visits">
     <div class="myVisitHeader">
-      <h4> My Visits</h4>
+      <h4> My Visit</h4>
       <span class="daysLeft">
         <i class="fa fa-star" aria-hidden="true"></i>
         2 DAYS LEFT
       </span>
     </div>
-    <ion-list class="list listMyVisit" style="  background: url(assets/imgs/Panel_BG.png);background-size: cover;">
-      <ion-item class="detailsLi">
-        <div class="detailswindow" item-content>
-          <ion-card>
-            <ion-card-header class="myVisitHeading">
-              Cognizant's Digital Capabilities
-            </ion-card-header>
-            <ion-card-content class="dateVenueDetails">
-              <div class="dateContainer">
-                <div class="date">
-                  <i class="fa fa-calendar icon-large"></i>
-                  <p class="noOfDays">2 Day(s)</p>
-                  <p>27 Sep - 28 Sep</p>
+    <ion-list class="list listMyVisit"  style="  background: url(assets/imgs/Panel_BG.png);background-size: cover;">
+    
+        <ion-item class="presentItem">
+          <div class="presentContent" item-content>
+            <ion-card class="presentCard">
+              <ion-card-header class="presentVisitHeading">
+                Cognizant's Digital Capabilities
+              </ion-card-header>
+              <ion-card-content>
+                <div>
+                  <div>
+                    <p>
+                      <i class="fa fa-calendar fa-lg icon-color calendar"></i>
+                      <span class="daysCount"> 27<sup>th</sup> Sep - 28<sup>th</sup>Sep </span> | 2 Day(s)</p>
+                  </div>
+                  <div>
+                    <p>
+                      <i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i>
+                      <span class="daysCount"> Cognizant- India</span> | Chennai - DLF</p>
+                  </div>
                 </div>
-                <div class="venue">
-                  <i class="fa fa-map-marker icon-2x" aria-hidden="true"></i>
-                  <p class="noOfDays"> Cognizant- India</p>
-                  <p>Chennai - DLF</p>
-                </div>
-              </div>
-            </ion-card-content>
-          </ion-card>
-          <button class="viewDetails" (click)="goToOtherPage()"> View Details
-          </button>
-        </div>
-      </ion-item>
+                
+              </ion-card-content>
+              <button class="viewDetails" (click)="goToOtherPage()"> View Details
+              </button>
+            </ion-card>
+          </div>
+        </ion-item>
+      </ion-list>
+        
+      
 
-     </ion-list>
+
   </div>
 
   <div class="visitsPast">
     <div class="pastVisitHeader">
-      <h4>Past Visit</h4>
+      <h4>Past Visits</h4>
       <div class="closed">
-        <i class="fa fa-circle-thin circle" aria-hidden="true"></i>Closed</div>
+        <i class="fa fa-circle circle" aria-hidden="true"></i>Closed</div>
     </div>
     <ion-list class="list">
       <ion-item class="pastItem">
@@ -65,21 +70,49 @@
           <ion-card class="pastCard">
             <ion-card-header class="pastVisitHeading">
               Cognizant's Digital Capabilities
-              <button class="pastView" (click)="goToOtherPage()"> View Details
+              <button class="pastView" (click)="goToOtherPage()"> View 
                 <i class="fa fa-angle-right fa-lg arrowRight" aria-hidden="true"></i>
               </button>
             </ion-card-header>
             <ion-card-content>
               <div>
                 <div>
-                  <p>
+                  <p class="noOfDaysPast">
                     <i class="fa fa-calendar fa-lg icon-color calendar"></i>
-                    <span class="daysCount"> 2 Day(s)</span> | 27 Sep - 28 Sep</p>
+                    <span class="daysCountPast">  27 Sep - 28 Sep</span> | 2 Day(s)
+                  </p>
                 </div>
                 <div>
-                  <p>
+                  <p class="daysCountPast">
                     <i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i>
-                    <span class="daysCount"> Cognizant- India</span> | Chennai - DLF</p>
+                    <span class="daysCountPast"> Cognizant- India</span> | Chennai - DLF</p>
+                </div>
+              </div>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-item>
+      <ion-item class="pastItem">
+        <div class="pastContent" item-content>
+          <ion-card class="pastCard">
+            <ion-card-header class="pastVisitHeading">
+              Cognizant's Digital Capabilities
+              <button class="pastView" (click)="goToOtherPage()"> View 
+                <i class="fa fa-angle-right fa-lg arrowRight" aria-hidden="true"></i>
+              </button>
+            </ion-card-header>
+            <ion-card-content>
+              <div>
+                <div>
+                  <p class="noOfDaysPast">
+                    <i class="fa fa-calendar fa-lg icon-color calendar"></i>
+                    <span class="daysCountPast">  27 Sep - 28 Sep</span> | 2 Day(s)
+                  </p>
+                </div>
+                <div>
+                  <p class="daysCountPast">
+                    <i class="fa fa-map-marker fa-lg icon-color location" aria-hidden="true"></i>
+                    <span class="daysCountPast"> Cognizant- India</span> | Chennai - DLF</p>
                 </div>
               </div>
             </ion-card-content>
